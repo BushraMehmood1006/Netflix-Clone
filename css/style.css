@@ -1,0 +1,232 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+}
+a{
+	color: white;
+}
+.main{
+	width: 100%;
+}
+.section-end-line{
+	width: 100%;
+	height: 10px;
+	background-color: rgb(35,35,35);
+}
+.header-main{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.header{
+	width: 100%;
+	margin: auto;
+	background-image: url(../images/PK-en-20240415-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+	background-position: center bottom;
+	background-size: cover;
+}
+.nav-bar{
+	max-width: 970px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.btn{
+	margin: 20px 20px;
+	padding: 10px 15px;
+	background-color: #E50914;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.header-content{
+	max-width: 970px;
+	margin: auto;
+	padding: 200px 0px;
+	text-align: center;
+}
+h3{
+	font-size: 44px;
+	font-weight: 900;
+}
+.header-content>h4{
+	font-size: 24px;
+	font-weight: 300;
+	margin: 20px 0px;
+}
+.header-content>h5{
+	font-size: 20px;
+	font-weight: 300;
+}
+.header-email{
+	margin: 20px 0px;
+	display: flex;
+	justify-content: center;
+}
+.header-email>input{
+	font-size: 15px;
+	color: white;
+	border: 0.5px solid grey;
+	padding: 20px 150px 20px 20px;
+	border-radius: 5px;
+	background-color:rgba(0, 0, 0, 0.7);;
+}
+.header-email>button{
+	font-size: 24px;
+	margin-left: 10px;
+	background-color: #E50914;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 16px 40px 16px 20px;
+}
+.enjoy-main {
+	max-width: 970px;
+	margin: auto;
+	padding: 50px 0px ;
+	text-align: left;
+	display: flex;
+}
+.enjoy-left{
+	flex-basis: 50%;
+	padding: 80px 0px;
+}
+.enjoy-right{
+	flex-basis: 50%;
+	position: relative;
+}
+.enjoy-right-image{
+	z-index: 1;
+}
+.enjoy-left>h5, .download-right>h5, .watch>h5{
+	margin: 10px 0px;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 30px;
+}
+.enjoy-right-video{
+	position: absolute;
+	top: 76px;
+	left: 64px;
+	z-index: 0;
+}
+.download-main{
+	max-width: 970px;
+	margin: auto;
+	padding: 50px 0px 80px 0px;
+	text-align: left;
+	display: flex;
+}
+.download-right{
+	flex-basis: 50%;
+	padding: 60px 0px;
+}
+.download-left{
+	flex-basis: 50%;
+	position: relative;
+}
+.download-left-image{
+	max-width:280px;
+	border: 3px solid rgb(35,35,35);
+	background-color: black;
+	display: flex;
+	border-radius: 15px;
+	position: absolute;
+	top: 250px;
+	left: 105px;
+	padding: 10px;
+}
+.download-left-image>p{
+	margin: 10px 20px;
+	line-height: 25px;
+}
+.download-left-image>p>span{
+	color: #005AE4;
+}
+.watch{
+	flex-basis: 60%;
+	padding: 20px 80px;
+}
+.Questions-inner{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.question1{
+	width: 100%;
+	background-color: #2D2D2D;
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 24px;
+	padding: 25px;
+}
+.question-main{
+	max-width: 970px;
+	margin: auto;
+	padding: 50px 0px 40px 0px;
+}
+i{
+	font-size: 30px;
+	font-weight: 200;
+}
+.membership{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 20px;
+}
+footer{
+	max-width: 970px;
+	margin: auto;
+	padding: 50px 0px 80px 0px;
+}
+.footer-inner{
+	width: 83%;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: underline;
+}
+.footer1{
+	margin: 25px 0px;
+}
+.footer2{
+	padding-bottom: 20px;
+}
+.footer{
+	text-decoration: underline;
+}
+.footer3{
+	max-width: 120px;
+	margin-bottom: 30px;
+}
+.footer3-1{
+	background-color: transparent;
+	border: 1px solid gray;
+	padding: 10px 15px 10px 10px;
+	border-radius: 5px;
+	position: relative;
+}
+.footer3>ul>li>i{
+	font-size: 15px;
+	margin-left:10px ;
+}
+.footer3-2{
+	position: absolute;
+	top:39px;
+	background-color: #005AE4; 
+	padding: 5px 55px 5px 5px;
+	font-size: 13px;
+	display: none;
+	transition: 2s;
+}
+.footer3>ul>li:hover .footer3-2{
+	display: block;
+}
